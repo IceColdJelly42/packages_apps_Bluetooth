@@ -62,7 +62,6 @@
     <!-- For PBAP Owner Vcard Info -->
     <uses-permission android:name="android.permission.READ_PROFILE"/>
 
-
     <application
         android:name=".btservice.AdapterApp"
         android:icon="@drawable/bt_share"
