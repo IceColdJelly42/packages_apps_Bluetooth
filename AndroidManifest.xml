@@ -42,6 +42,7 @@
     <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER"></uses-permission>
     <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT"></uses-permission>
     <uses-permission android:name="com.android.permission.HANDOVER_STATUS" />
+    <uses-permission android:name="android.permission.MMS_PUSH"></uses-permission>
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
     <uses-permission android:name="android.permission.NET_ADMIN" />
     <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
@@ -60,6 +61,8 @@
 
     <!-- For PBAP Owner Vcard Info -->
     <uses-permission android:name="android.permission.READ_PROFILE"/>
+
+
     <application
         android:name=".btservice.AdapterApp"
         android:icon="@drawable/bt_share"
